@@ -1,14 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-
 // Use statements must come first
-@use "assets/layout/styles/layout/layout.scss";
-@use "assets/demo/styles/badges.scss";
-@use "assets/demo/styles/code.scss";
+@use "assets/layout/styles/layout/layout.scss" as *;
+@use "assets/demo/styles/badges.scss" as *;
+@use "assets/demo/styles/code.scss" as *;
 
-$gutter: 1rem; //for primeflex grid system
-
-/* PrimeNG - Note: PrimeNG 19+ uses themes from assets/layout/styles/theme/ */
-@import "../node_modules/primeflex/primeflex.scss";
+/* PrimeFlex & PrimeIcons */
+@use "primeflex/primeflex" as *; // PrimeFlex đã có sẵn $gutter
 @import "../node_modules/primeicons/primeicons.css";
 
 /* Demos */

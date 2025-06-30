@@ -101,7 +101,5 @@
                 }
             }
         }
-    ,
-    "packageManager": "yarn"
     }
 }
