@@ -11,7 +11,7 @@ import { ToastModule } from 'primeng/toast';
 import { ToolbarModule } from 'primeng/toolbar';
 import { RatingModule } from 'primeng/rating';
 import { InputTextModule } from 'primeng/inputtext';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { Textarea } from 'primeng/inputtextarea';
 import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { InputNumberModule } from 'primeng/inputnumber';
@@ -30,7 +30,7 @@ import { DialogModule } from 'primeng/dialog';
         ToolbarModule,
         RatingModule,
         InputTextModule,
-        InputTextareaModule,
+        Textarea,
         DropdownModule,
         RadioButtonModule,
         InputNumberModule,

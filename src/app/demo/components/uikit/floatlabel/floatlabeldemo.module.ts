@@ -11,7 +11,7 @@ import { InputMaskModule } from "primeng/inputmask";
 import { InputNumberModule } from "primeng/inputnumber";
 import { CascadeSelectModule } from "primeng/cascadeselect";
 import { MultiSelectModule } from "primeng/multiselect";
-import { InputTextareaModule } from "primeng/inputtextarea";
+import { Textarea } from "primeng/inputtextarea";
 import { InputTextModule } from "primeng/inputtext";
 import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
 import { InputGroupModule } from 'primeng/inputgroup';
@@ -28,7 +28,7 @@ import { InputGroupModule } from 'primeng/inputgroup';
 		InputNumberModule,
 		CascadeSelectModule,
 		MultiSelectModule,
-		InputTextareaModule,
+		Textarea,
 		InputTextModule,
 		InputGroupModule,
 		InputGroupAddonModule
