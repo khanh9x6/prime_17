@@ -11,7 +11,7 @@ import { InputMaskModule } from "primeng/inputmask";
 import { InputNumberModule } from "primeng/inputnumber";
 import { CascadeSelectModule } from "primeng/cascadeselect";
 import { MultiSelectModule } from "primeng/multiselect";
-import { InputTextareaModule } from "primeng/inputtextarea";
+import { Textarea } from "primeng/inputtextarea";
 import { InputTextModule } from "primeng/inputtext";
 import { PasswordModule } from "primeng/password";
 
@@ -29,7 +29,7 @@ import { PasswordModule } from "primeng/password";
 		CascadeSelectModule,
 		MultiSelectModule,
 		PasswordModule,
-		InputTextareaModule,
+		Textarea,
 		InputTextModule
 	],
 	declarations: [InvalidStateDemoComponent]
