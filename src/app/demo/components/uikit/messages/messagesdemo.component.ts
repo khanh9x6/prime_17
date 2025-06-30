@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Message, MessageService } from 'primeng/api';
+import { ToastMessageOptions, MessageService } from 'primeng/api';
 
 @Component({
     templateUrl: './messagesdemo.component.html',
@@ -8,7 +8,7 @@ import { Message, MessageService } from 'primeng/api';
 })
 export class MessagesDemoComponent {
 
-    msgs: Message[] = [];
+    msgs: ToastMessageOptions[] = [];
 
     constructor(private service: MessageService) { }
 
