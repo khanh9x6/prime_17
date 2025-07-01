@@ -1,11 +1,4 @@
-// Use statements must come first
-@use "assets/layout/styles/layout/layout.scss" as *;
-@use "assets/demo/styles/badges.scss" as *;
-@use "assets/demo/styles/code.scss" as *;
-
-/* PrimeFlex & PrimeIcons */
-@use "primeflex/primeflex" as *; // PrimeFlex đã có sẵn $gutter
-@import "../node_modules/primeicons/primeicons.css";
-
-/* Demos */
-@import "assets/demo/styles/flags/flags.css";
+@import 'bootstrap/scss/bootstrap';
+@import './assets/layout/layout.scss';
+@import 'primeicons/primeicons.css';
+@import './assets/demo/demo.scss';
